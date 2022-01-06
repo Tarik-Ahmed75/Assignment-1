@@ -1,10 +1,15 @@
 body{
 
 margin: 0px;
+font-family: 'Licorice', cursive;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Roboto', sans-serif;
 
 }
 
-section{
+.section-flex{
 
     display: flex;
     margin-top: 100px;
@@ -22,9 +27,40 @@ h1{
 .orange-color{
     color: #FFAD5A ;
 }
+.extra-color{
+    color: #FFAD5A ;
+}
 .half-width{
 padding-left: 100px;
     width: 50%;
+}
+.mission-2022{
+
+    text-align:center;
+}
+.bc-one{
+   background-color:darkturquoise;
+}
+.bc-two{
+    background-color:mediumslateblue;
+ }
+ .bc-three{
+    background-color:lightgreen;
+ }
+.onethird-width{
+    margin: 20px;
+padding: 40px 20px 40px 65px;
+width: 33.33%;
+border-radius: 5px;
+}
+
+   .onethird-width img{
+width: 100px;
+
+    }
+.my-mission-h1{
+
+    font-size: 30px;
 }
 .half-width img{
 
